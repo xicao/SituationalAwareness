@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4883691599948000B528DE /* GvaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4883681599948000B528DE /* GvaView.m */; };
 		1EBD8D1A15994664009522D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBD8D1915994664009522D7 /* UIKit.framework */; };
 		1EBD8D1C15994664009522D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBD8D1B15994664009522D7 /* Foundation.framework */; };
 		1EBD8D1E15994664009522D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBD8D1D15994664009522D7 /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E4883671599948000B528DE /* GvaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GvaView.h; sourceTree = "<group>"; };
+		1E4883681599948000B528DE /* GvaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GvaView.m; sourceTree = "<group>"; };
 		1EBD8D1515994664009522D7 /* SituationalAwareness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SituationalAwareness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBD8D1915994664009522D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1EBD8D1B15994664009522D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 				1EBD8D2815994664009522D7 /* SAAppDelegate.h */,
 				1EBD8D2915994664009522D7 /* SAAppDelegate.m */,
 				1EBD8D2B15994664009522D7 /* MainStoryboard.storyboard */,
+				1E4883671599948000B528DE /* GvaView.h */,
+				1E4883681599948000B528DE /* GvaView.m */,
 				1EBD8D2E15994664009522D7 /* SAViewController.h */,
 				1EBD8D2F15994664009522D7 /* SAViewController.m */,
 				1EBD8D2015994664009522D7 /* Supporting Files */,
@@ -164,6 +169,7 @@
 				1EBD8D2615994664009522D7 /* main.m in Sources */,
 				1EBD8D2A15994664009522D7 /* SAAppDelegate.m in Sources */,
 				1EBD8D3015994664009522D7 /* SAViewController.m in Sources */,
+				1E4883691599948000B528DE /* GvaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +283,7 @@
 				1EBD8D3515994664009522D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
