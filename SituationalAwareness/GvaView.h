@@ -10,4 +10,8 @@
 
 @interface GvaView : UIView
 
+@property NSInteger functionalAreaLabel;
+
+- (void)functionalAreaLabelSelected:(NSString *)label;
+
 @end

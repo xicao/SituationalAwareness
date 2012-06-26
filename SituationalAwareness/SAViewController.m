@@ -29,4 +29,9 @@
     return UIInterfaceOrientationIsLandscape(orientation);// only support landscape
 }
 
+- (IBAction)functionalAreaSelected:(UIButton *)sender {
+    // highlight current functional area label
+    [self.gvaView functionalAreaLabelSelected:sender.currentTitle];
+}
+
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E4883691599948000B528DE /* GvaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4883681599948000B528DE /* GvaView.m */; };
+		1E6AF3041599DB5F007B7351 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E6AF3031599DB5F007B7351 /* button.png */; };
 		1EBD8D1A15994664009522D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBD8D1915994664009522D7 /* UIKit.framework */; };
 		1EBD8D1C15994664009522D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBD8D1B15994664009522D7 /* Foundation.framework */; };
 		1EBD8D1E15994664009522D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBD8D1D15994664009522D7 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		1E4883671599948000B528DE /* GvaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GvaView.h; sourceTree = "<group>"; };
 		1E4883681599948000B528DE /* GvaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GvaView.m; sourceTree = "<group>"; };
+		1E6AF3031599DB5F007B7351 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		1EBD8D1515994664009522D7 /* SituationalAwareness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SituationalAwareness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBD8D1915994664009522D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1EBD8D1B15994664009522D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +97,7 @@
 		1EBD8D2015994664009522D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1E6AF3031599DB5F007B7351 /* button.png */,
 				1EBD8D2115994664009522D7 /* SituationalAwareness-Info.plist */,
 				1EBD8D2215994664009522D7 /* InfoPlist.strings */,
 				1EBD8D2515994664009522D7 /* main.m */,
@@ -156,6 +159,7 @@
 			files = (
 				1EBD8D2415994664009522D7 /* InfoPlist.strings in Resources */,
 				1EBD8D2D15994664009522D7 /* MainStoryboard.storyboard in Resources */,
+				1E6AF3041599DB5F007B7351 /* button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
